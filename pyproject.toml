@@ -1,1 +1,12 @@
+[project]
+name = "gh-space-shooter"
+version = "0.1.0"
+description = "Turn your GitHub contribution graph into a space shooter GIF"
+requires-python = ">=3.10"
+dependencies = [
+  "requests",
+  "pillow"
+]
 
+[project.scripts]
+gh-space-shooter = "gh_space_shooter.cli:main"
