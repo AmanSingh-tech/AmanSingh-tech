@@ -1,4 +1,4 @@
-name: Generate contribution snake
+name: Generate profile cards and snake
 
 on:
   schedule:
@@ -16,6 +16,13 @@ jobs:
     timeout-minutes: 10
 
     steps:
+      - uses: actions/checkout@v4
+
+      - name: Build hero and activity cards
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/build_cards.py ${{ github.repository_owner }} dist
+
       - name: Generate snake SVGs from the contribution graph
         uses: Platane/snk@v3
         with:
