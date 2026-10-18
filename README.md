@@ -23,7 +23,6 @@ I care about good defaults. An API that's hard to misuse, a test that actually r
 - **[Agentic Agile Planner](https://github.com/AmanSingh-tech/agentic-agile-planner)**: Java 21 and Spring AI agents that turn requirements into user stories, refine them over the A2A protocol, and create Jira tickets only after a human approves.
 - **[Custo](https://github.com/AmanSingh-tech/Custo)**: policy-constrained triage for customer-support chats. It suggests the next allowed step with a calibrated confidence score and can't touch money or accounts.
 - **[ReachAI](https://github.com/AmanSingh-tech/ReachAI)**: a local-first job-search outreach assistant that only sends what you approve.
-- **[IronTest](https://github.com/AmanSingh-tech/IronTest)**: point it at a repo, describe what you're building, and get tests that actually run against your code.
 - **[NeuraAdapt AI](https://github.com/AmanSingh-tech/NeuraAdapt-AI)**: eye-tracking that spots where dyslexic students lose focus in a lecture and writes notes for those moments.
 
 #### A few numbers
