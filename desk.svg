@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="340" viewBox="0 0 850 340" role="img" aria-label="An illustration of Aman at a desk, typing, with a speech bubble that says hello.">
+<defs>
+  <radialGradient id="lampglow"><stop offset="0" stop-color="#fff4dc" stop-opacity="0.35"/><stop offset="1" stop-color="#fff4dc" stop-opacity="0"/></radialGradient>
+  <radialGradient id="screenglow"><stop offset="0" stop-color="#9fb4ff" stop-opacity="0"/><stop offset="1" stop-color="#9fb4ff" stop-opacity="0"/></radialGradient>
+  <clipPath id="card"><rect width="850" height="340" rx="12"/></clipPath>
+</defs>
+<style>
+  .sans { font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, sans-serif; }
+  .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; letter-spacing: 0.06em; }
+  .msg { opacity: 0; animation: msg 16.0s cubic-bezier(0.23, 1, 0.32, 1) infinite both; }
+  .type { animation: type 5s steps(8, end) infinite both; }
+  .hand-l { animation: tap 2.4s ease-in-out infinite; }
+  .hand-r { animation: tap 2.4s ease-in-out 0.12s infinite; }
+  .head { transform-origin: 365px 236px; animation: glance 9s cubic-bezier(0.77, 0, 0.175, 1) infinite; }
+  .steam { animation: steam 3s ease-out infinite; }
+  .twinkle { animation: twinkle 3.2s ease-in-out infinite; }
+  @keyframes msg {
+    0% { opacity: 0; transform: translateY(4px); filter: blur(2px); }
+    2.40% { opacity: 1; transform: none; filter: blur(0); }
+    17.60% { opacity: 1; transform: none; filter: blur(0); }
+    20.00%, 100% { opacity: 0; transform: translateY(-4px); filter: blur(2px); }
+  }
+  @keyframes type { 0% { clip-path: inset(0 100% 0 0); } 18%, 92% { clip-path: inset(0 0 0 0); } 100% { clip-path: inset(0 100% 0 0); } }
+  @keyframes tap {
+    0%, 6%, 12%, 18%, 24%, 30%, 36%, 100% { transform: none; }
+    3%, 9%, 15%, 21%, 27%, 33% { transform: translateY(-2px); }
+  }
+  @keyframes glance { 0%, 62% { transform: none; } 70%, 84% { transform: rotate(-5deg) translateX(-2px); } 92%, 100% { transform: none; } }
+  @keyframes steam { 0% { opacity: 0; transform: translateY(4px); } 30% { opacity: 0.7; } 100% { opacity: 0; transform: translateY(-10px); } }
+  @keyframes twinkle { 0%, 100% { opacity: 0.35; } 50% { opacity: 1; } }
+  @media (prefers-reduced-motion: reduce) {
+    .type, .hand-l, .hand-r, .head, .steam, .twinkle { animation: none; }
+    .msg { animation-name: msgfade; }
+    @keyframes msgfade { 0%, 20.00%, 100% { opacity: 0; } 2.40%, 17.60% { opacity: 1; } }
+  }
+</style>
+<g clip-path="url(#card)">
+  <rect width="850" height="340" fill="#f4f2ee"/>
+  <rect y="290" width="850" height="50" fill="#e8e2d8"/>
+  <line x1="0" y1="290" x2="850" y2="290" stroke="#e6e6e6"/>
+  
+  <rect x="640" y="36" width="150" height="176" rx="4" fill="#d9e8f1"/>
+  <circle cx="752" cy="74" r="18" fill="#fff8e7"/>
+  <polygon points="640,212 790,212 720,290 470,290" fill="#fff4dc" opacity="0.55"/>
+  <rect x="640" y="36" width="150" height="176" rx="4" fill="none" stroke="#111111" stroke-opacity="0.85" stroke-width="3"/>
+  <line x1="715" y1="36" x2="715" y2="212" stroke="#111111" stroke-opacity="0.85" stroke-width="3"/>
+  <line x1="640" y1="124" x2="790" y2="124" stroke="#111111" stroke-opacity="0.85" stroke-width="3"/>
+
+  <line x1="96" y1="97" x2="250" y2="97" stroke="#111111" stroke-width="3"/>
+  <rect x="104" y="56" width="12" height="40" rx="1.5" fill="#111111"/><rect x="118" y="62" width="10" height="34" rx="1.5" fill="#6b6b6b"/><rect x="130" y="52" width="14" height="44" rx="1.5" fill="#e5352b"/><rect x="146" y="66" width="9" height="30" rx="1.5" fill="#6b6b6b"/><rect x="157" y="58" width="12" height="38" rx="1.5" fill="#111111"/>
+  <rect x="196" y="72" width="22" height="24" rx="3" fill="#6b6b6b" opacity="0.5"/>
+  <path d="M207 72 C200 58 192 62 196 54 M207 72 C212 56 222 60 218 50" stroke="#5f8f6a" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <rect x="560" y="112" width="48" height="60" fill="#ffffff" stroke="#e6e6e6"/>
+  <rect x="569" y="121" width="14" height="14" fill="#e5352b"/>
+  <rect x="569" y="146" width="30" height="3" fill="#6b6b6b"/><rect x="569" y="154" width="20" height="3" fill="#6b6b6b"/>
+  
+
+  <circle cx="365" cy="150" r="140" fill="url(#screenglow)"/>
+  <rect x="268" y="96" width="194" height="122" rx="7" fill="#111111"/>
+  <rect x="274" y="102" width="182" height="110" rx="3" fill="#16191d"/>
+  <rect x="283" y="112" width="96" height="5" rx="2.5" fill="#5d636b" class="type" style="animation-delay:0.00s"/><rect x="295" y="124" width="64" height="5" rx="2.5" fill="#5d636b" class="type" style="animation-delay:0.55s"/><rect x="295" y="136" width="120" height="5" rx="2.5" fill="#5d636b" class="type" style="animation-delay:1.10s"/><rect x="283" y="148" width="80" height="5" rx="2.5" fill="#e5352b" class="type" style="animation-delay:1.65s"/><rect x="295" y="160" width="52" height="5" rx="2.5" fill="#5d636b" class="type" style="animation-delay:2.20s"/><rect x="295" y="172" width="108" height="5" rx="2.5" fill="#5d636b" class="type" style="animation-delay:2.75s"/><rect x="283" y="184" width="72" height="5" rx="2.5" fill="#5d636b" class="type" style="animation-delay:3.30s"/>
+  <rect x="357" y="218" width="16" height="14" fill="#111111"/>
+  <g transform="rotate(-6 283 190)">
+    <rect x="257" y="170" width="50" height="40" fill="#ffe2dc"/>
+    <text x="282" y="187" text-anchor="middle" class="mono" font-size="8" fill="#5a2a24">STREAK</text>
+    <text x="282" y="202" text-anchor="middle" class="sans" font-size="13" font-weight="700" fill="#5a2a24">0d</text>
+  </g>
+
+  <rect x="150" y="230" width="430" height="10" rx="2" fill="#c9b8a0"/>
+  <rect x="166" y="240" width="8" height="50" fill="#c9b8a0"/>
+  <rect x="556" y="240" width="8" height="50" fill="#c9b8a0"/>
+  <path d="M506 206 h22 v18 a6 6 0 0 1 -6 6 h-10 a6 6 0 0 1 -6 -6 z" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+  <path d="M528 211 a6 6 0 0 1 0 12" fill="none" stroke="#111111" stroke-width="2"/>
+  <path class="steam" d="M513 200 c-4 -6 4 -8 0 -14 M521 200 c-4 -6 4 -8 0 -14" stroke="#6b6b6b" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+
+  <path class="hand-l" d="M300 262 Q292 236 318 228" stroke="#e5352b" stroke-width="18" stroke-linecap="round" fill="none"/>
+  <path class="hand-r" d="M430 262 Q438 236 412 228" stroke="#e5352b" stroke-width="18" stroke-linecap="round" fill="none"/>
+  <path d="M301 300 C295 262 313 232 365 230 C417 232 435 262 429 300 Z" fill="#e5352b"/>
+  <path d="M335 236 Q365 256 395 236" stroke="#000" stroke-opacity="0.18" stroke-width="3" fill="none"/>
+  <g class="head">
+    <circle cx="318" cy="194" r="9" fill="#e9b996"/>
+    <circle cx="412" cy="194" r="9" fill="#e9b996"/>
+    <circle cx="365" cy="186" r="48" fill="#1c1c1c"/>
+    <path d="M335 146 q8 -14 20 -8 q6 -16 22 -6 q12 -10 18 8" fill="#1c1c1c"/>
+    <path d="M345 168 q12 -8 26 -2 M359 196 q14 -6 26 2" stroke="#ffffff" stroke-opacity="0.08" stroke-width="3" fill="none" stroke-linecap="round"/>
+  </g>
+  <rect x="309" y="268" width="112" height="44" rx="14" fill="#d6d1c8"/>
+  <rect x="361" y="312" width="8" height="18" fill="#d6d1c8"/>
+
+  <g>
+    <path d="M404 82 L386 132 L428 85" fill="#ffffff" stroke="#e6e6e6" stroke-linejoin="round"/>
+    <rect x="378" y="46" width="262" height="40" rx="20" fill="#ffffff" stroke="#e6e6e6"/>
+    <path d="M405 85.5 L427 85.5" stroke="#ffffff" stroke-width="2"/>
+    <text x="509" y="73" text-anchor="middle" class="sans msg" font-size="15" font-weight="600" fill="#111111" style="animation-delay:0.0s">Hey! I&#x27;m Aman.</text><text x="509" y="73" text-anchor="middle" class="sans msg" font-size="15" font-weight="600" fill="#111111" style="animation-delay:3.2s">Ex-Google, ex-AlgoUniversity.</text><text x="509" y="73" text-anchor="middle" class="sans msg" font-size="15" font-weight="600" fill="#111111" style="animation-delay:6.4s">LeetCode 1998, top 8%.</text><text x="509" y="73" text-anchor="middle" class="sans msg" font-size="15" font-weight="600" fill="#111111" style="animation-delay:9.6s">CS at MIT Bengaluru.</text><text x="509" y="73" text-anchor="middle" class="sans msg" font-size="15" font-weight="600" fill="#111111" style="animation-delay:12.8s">Building agents that ask first.</text>
+  </g>
+
+  <text x="24" y="28" class="mono" font-size="10" fill="#6b6b6b">AT THE DESK</text>
+  <text x="826" y="28" class="mono" font-size="10" fill="#6b6b6b" text-anchor="end">BENGALURU · AFTERNOON</text>
+</g>
+<rect x="0.5" y="0.5" width="849" height="339" rx="12" fill="none" stroke="#e6e6e6"/>
+</svg>
