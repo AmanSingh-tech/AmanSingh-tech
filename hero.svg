@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="300" viewBox="0 0 850 300" role="img" aria-label="Aman Kumar Singh. Full-stack engineer building AI agents.">
+<style>
+  .sans { font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, sans-serif; }
+  .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; letter-spacing: 0.06em; }
+  .in { opacity: 0; animation: in 700ms cubic-bezier(0.23, 1, 0.32, 1) forwards; }
+  .reveal { animation: reveal 1100ms cubic-bezier(0.23, 1, 0.32, 1) 250ms both; }
+  @keyframes in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+  @keyframes reveal { from { clip-path: inset(0 100% 0 0); } to { clip-path: inset(0 0 0 0); } }
+  @media (prefers-reduced-motion: reduce) {
+    .in { animation: fade 300ms ease forwards; }
+    .reveal { animation: none; }
+    @keyframes fade { to { opacity: 1; } }
+  }
+</style>
+  <rect x="0.5" y="0.5" width="849" height="299" rx="12" fill="#ffffff" stroke="#e6e6e6"/>
+  <g class="in" style="animation-delay:0ms">
+    <text x="32" y="44" class="mono" font-size="11" fill="#6b6b6b">AMAN KUMAR SINGH</text>
+    <text x="818" y="44" class="mono" font-size="11" fill="#6b6b6b" text-anchor="end">BENGALURU, INDIA</text>
+  </g>
+  <g class="in" style="animation-delay:60ms">
+    <text x="28" y="124" class="sans" font-size="76" font-weight="700" letter-spacing="-3.5" fill="#111111">Aman Singh<tspan fill="#e5352b">.</tspan></text>
+  </g>
+  <text x="32" y="164" class="sans in" style="animation-delay:180ms" font-size="18" fill="#6b6b6b">I build software that does the boring part for you, then gets out of the way.</text>
+
+  <g class="in" style="animation-delay:300ms">
+    <line x1="32" y1="206" x2="272" y2="206" stroke="#111111" stroke-width="1.5"/>
+    <text x="32" y="230" class="mono" font-size="11" fill="#6b6b6b">PREVIOUSLY</text>
+    <text x="32" y="254" class="sans" font-size="16" font-weight="600" fill="#111111">Google · AlgoUniversity</text>
+    <text x="32" y="275" class="sans" font-size="16" fill="#6b6b6b">applied AI &amp; SWE intern</text>
+  </g>
+  <g class="in" style="animation-delay:360ms">
+    <line x1="302" y1="206" x2="542" y2="206" stroke="#111111" stroke-width="1.5"/>
+    <text x="302" y="230" class="mono" font-size="11" fill="#6b6b6b">NOW</text>
+    <text x="302" y="254" class="sans" font-size="16" font-weight="600" fill="#111111">CS at MIT Bengaluru</text>
+    <text x="302" y="275" class="sans" font-size="16" fill="#6b6b6b">building AI agents</text>
+  </g>
+  <g class="in" style="animation-delay:420ms">
+    <line x1="572" y1="206" x2="812" y2="206" stroke="#111111" stroke-width="1.5"/>
+    <text x="572" y="230" class="mono" font-size="11" fill="#6b6b6b">WRITES</text>
+    <text x="572" y="254" class="sans" font-size="16" font-weight="600" fill="#111111">Java · TypeScript · Python</text>
+    <text x="572" y="275" class="sans" font-size="16" fill="#6b6b6b">Spring AI, Next.js, FastAPI</text>
+  </g>
+</svg>
